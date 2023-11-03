@@ -1,0 +1,216 @@
+<style>
+    button {
+        margin-left: 100px;
+    }
+
+    .form {
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+
+    nav {
+        background-color: #efefef;
+        width: 100%;
+        height: 40px;
+        display: flex;
+    }
+
+    nav a {
+        margin-top: 6px;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .containerwf {
+        margin-top: 20px;
+        /* background-color: #efefef; */
+        padding: 10px;
+    }
+
+    .wrapperwf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow-steps {
+        display: flex;
+    }
+
+    .step span {
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+
+    form {
+        margin-left: 400px;
+
+    }
+
+    .step {
+        height: 40px;
+        width: 200px;
+        flex: 1;
+        display: flex;
+        text-align: center;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .square {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+    }
+
+    .step.current {
+        background-color: #fd7a24;
+        color: #fff;
+    }
+
+    .nav {
+        background-color: #ccc;
+        width: 100%;
+        height: 40px;
+        display: flex;
+    }
+
+    .nav h4 {
+        font-weight: 500;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+
+    }
+</style>
+
+<div ng-controller="createController">
+    <div class="nav">
+        <h4>Create WorkFlow</h4>
+    </div>
+    <div class="col-md-12">
+        <div class="containerwf">
+            <div class="wrapperwf">
+                <div class="arrow-steps clearfix">
+                    <div class="step" ng-class="{current: step === 'workflowDetails'}">
+                        <span>Workflow details</span>
+                    </div>
+                    <div class="step" ng-class="{current: step === 'assetPlanning'}">
+                        <span>asset planning</span>
+                    </div>
+                    <div class="step" ng-class="{current: step === 'saveWorkflow'}">
+                        <span>save workflow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-container" ng-show="step === 'workflowDetails'">
+        <form name="workflowDetailsForm">
+            <table>
+                <tr>
+                    <td>
+                        <label for="workflowName">Workflow Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="workflowName" class="form-control" style="color: red;"
+                            name="workflowName" ng-model="workflowName" required>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td>
+                        <label for="priority">Priority:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="priorityCritical" name="priority" ng-model="priority" value="critical">
+                        Critical
+                        <input type="radio" id="priorityHigh" name="priority" ng-model="priority" value="High"> High
+                        <input type="radio" id="priorityMedium" name="priority" ng-model="priority" value="medium">
+                        Medium
+                        <input type="radio" id="priorityLow" name="priority" ng-model="priority" value="low"> Low
+                    </td>
+                </tr><br>
+                <tr>
+                    <div class="form-group">
+                        <td>
+                            <label for="exampleFormControlSelect1">Group</label>
+                        </td>
+                        <td>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Default Group</option>
+                                <option selected>Planning Group</option>
+                                <option>Rollout Group</option>
+                                <option>Maintenance Group</option>
+                            </select>
+                        </td>
+                    </div>
+                </tr><br>
+                <tr>
+                    <td><label for="">Assigned To</label></td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Workflow type</label></td>
+                    <td><select class="form-control">
+                            <option selected>select workflow type</option>
+                            <option value="Field Operations team">Field Operations team</option>
+                            <option value="">Route Survey</option>
+                            <option value="">ROW application submission</option>
+                            <option value="">Work Allot</option>
+                            <option value="">Capex Deviation</option>
+                            <option value="">Less than 2Km</option>
+                            <option value="">Fiber Route</option>
+                            <option value="">HDD Survey</option>
+                            <option value="">Work Flow Type</option>
+                            <option value="">Pre_Execution</option>
+
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Operation for HH confirmation</label></td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Fiber Distance</label></td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+            </table>
+            <br><br>
+            <button ng-click="nextStep()" class="btn btn btn-sm" style="background-color: #fd7a24; color: white;">Next
+                <i class="fas fa-arrow-right"></i> </button>
+
+        </form>
+
+    </div>
+    <div class="form-container" ng-show="step =='assetPlanning'" style="margin-left: 200px;">
+        <select name="" id="" class="btn btn" style="width: 300px; background-color: #fd7a24; color: white;">
+            <option selected>Select Asset Type</option>
+            <option value="">12F <img class="square" style="background-color: black;" alt=""> </option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select> <br> <br>
+        <div id="google-map" style="width: 600px; height: 400px; "></div> <br>
+        <button ng-click="nextStep()" class="btn btn btn-sm" style="background-color: #fd7a24; color: white;">Next
+            <i class="fas fa-arrow-right"></i> </button>
+    </div>
+
+</div>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxmrEHqUlX7EDSzaPLFbYUzpIL2eM4MgU&callback=initMap"></script>

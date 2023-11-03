@@ -1,0 +1,110 @@
+<div class="box-header with-border" style="width: 100%;
+background-color: #efefef;
+height: 50px;
+display: flex;">
+    <h3 class="box-title">
+        <span>Workflow-{{item.id}}</span>
+    </h3>
+</div>
+
+<div class="col-md-6">
+    <h4 class="box-title" style="text-align: unset;">
+        <span>Workflow details</span>
+    </h4>
+    <div class="box-body table-scroll">
+        <dl class="dl-horizontal jh-entity-details">
+            <dt>
+                <span>Description</span>
+            </dt>
+            <dd>
+                <span>{{item.Description}}</span>
+            </dd>
+            <dt>
+                <span>Status</span>
+            </dt>
+            <dd>
+                <span>{{item.Status}}</span>
+            </dd>
+            <dt>
+                <span>WorkFlow Type</span>
+            </dt>
+            <dd>
+                <span>Work Flow Type</span>
+            </dd>
+            <dt>
+                <span>Escalated</span>
+            </dt>
+            <dd>
+                <span>No</span>
+            </dd>
+            <dt>
+                <span>Verified</span>
+            </dt>
+            <dd>
+                <span>No</span>
+            </dd>
+            <dt>
+                <span>Pin Lat
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    28.673477</span>
+            </dd>
+            <dt>
+                <span>Pin Long
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    77.139908
+                    <span>
+                    </span>
+            </dd>
+            <dt>
+                <span>Assigned To
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    {{item.AssignedTo}}
+                    <span>
+                    </span>
+            </dd>
+            <dt>
+                <span>Reported By
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    {{item.AssignedTo}}
+                    <span>
+                    </span>
+            </dd>
+            <dt>
+                <span>Updated By
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    {{item.AssignedTo}}
+                    <span>
+                    </span>
+            </dd>
+            <dt>
+                <span>Fiber Distance
+                </span>
+            </dt>
+            <dd>
+                <span>
+                    {{item.Distance}}
+                    <span>
+                    </span>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="col-md-12 mt-5">
+    <a ui-sref="edit({id:item.id})" class="btn btn-danger btn-sm"> <span
+            class="glyphicon glyphicon-pencil"><span>Edit</span></span></a>
+</div>

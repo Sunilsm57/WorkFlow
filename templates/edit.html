@@ -1,0 +1,50 @@
+<style>
+    #itemName {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+</style>
+<div class="container">
+    <h3>Edit Item</h3>
+    <form name="editItemForm">
+        <div class="form-group">
+            <tr>
+                <td><label>Item Description:</label></td>
+                <td><input type="text" id="itemName" class="form-control" ng-model="item.Description"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Status</label>
+
+                </td>
+                <td><input type="text" id="itemName" class="form-control" ng-model="item.Status"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Phase</label>
+
+                </td>
+                <td><input type="text" id="itemName" class="form-control" ng-model="item.Phase"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Distance</label>
+                </td>
+                <td><input type="number" id="itemName" class="form-control" ng-model="item.Distance"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">AssignedTo</label>
+                </td>
+                <td><input type="text" id="itemName" class="form-control" ng-model="item.AssignedTo"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">CreatedBy</label>
+                </td>
+                <td><input type="text" id="itemName" class="form-control" ng-model="item.CreatedBy"></td>
+            </tr>
+        </div>
+        <button ng-click="updateItem()" class="btn btn-primary">Update</button>
+    </form>
+</div>

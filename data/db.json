@@ -1,0 +1,365 @@
+{
+    "details": [
+      {
+        "id": 8986290,
+        "Description": "Workflow_Del_1",
+        "Status": "Lighting",
+        "Phase": "PLANNING",
+        "Distance": "57.93",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1",
+        "name": "fhsdgf"
+      },
+      {
+        "id": 8986301,
+        "Description": "Workflow_Del_2",
+        "Status": "Fiber Pulling Done",
+        "Phase": "ROLLOUT",
+        "Distance": "46.33",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8986323,
+        "Description": "Workflow_Del_3",
+        "Status": "Ducting Done",
+        "Phase": "ROLLOUT",
+        "Distance": "50.32",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8986359,
+        "Description": "Workflow_Del_4",
+        "Status": "Route Survey Done",
+        "Phase": "ROLLOUT",
+        "Distance": "121.96",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8986382,
+        "Description": "Workflow_Del_5",
+        "Status": "Fiber Pulling Done",
+        "Phase": "ROLLOUT",
+        "Distance": "38.03",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8986408,
+        "Description": "Workflow_Del_6",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "36.34",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993419,
+        "Description": "AHD_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "0.84",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993480,
+        "Description": "MYS_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "1.12",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993560,
+        "Description": "DEL_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "0.24",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993589,
+        "Description": "MI_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "2.65",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993661,
+        "Description": "PUNE_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "1.19",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993722,
+        "Description": "VIZ_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "1.28",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993795,
+        "Description": "RAI_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "1.56",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993850,
+        "Description": "CNI_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.73",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8993984,
+        "Description": "HYD_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "1.41",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8994061,
+        "Description": "NLR_WF_1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "2.98",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8995046,
+        "Description": "Nagpur to Amravathi WF1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "43.12",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996148,
+        "Description": "WF_MYS_MYA_01",
+        "Status": "Lighting",
+        "Phase": "PLANNING",
+        "Distance": "5.88",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996210,
+        "Description": "WF_MYS_MYA_02",
+        "Status": "Fiber Pulling Done",
+        "Phase": "PLANNING",
+        "Distance": "2.03",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996309,
+        "Description": "Ahmedabad WF1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "11.08",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996344,
+        "Description": "Ahmedabad WF2",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.38",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996368,
+        "Description": "Ahmedabad WF3",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "3.18",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996388,
+        "Description": "WF_MYS_MYA_03",
+        "Status": "Ducting Done",
+        "Phase": "PLANNING",
+        "Distance": "4.28",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996454,
+        "Description": "Ahmedabad WF4",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "5.29",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996480,
+        "Description": "WF_MYS_MYA_04",
+        "Status": "HDD/Trenching Done",
+        "Phase": "PLANNING",
+        "Distance": "4.41",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996549,
+        "Description": "Pune to Shikrapur WF1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "2.08",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996573,
+        "Description": "Pune to Shikrapur WF2",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.51",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996602,
+        "Description": "Pune to Shikrapur WF3",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "6.73",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996640,
+        "Description": "WF_MYS_MYA_05",
+        "Status": "HDD/Trenching Done",
+        "Phase": "PLANNING",
+        "Distance": "2.94",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996698,
+        "Description": "Pune to Shikrapur WF4",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.49",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996727,
+        "Description": "WF_MYS_MYA_06",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "6.47",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996796,
+        "Description": "Pune to Shikrapur WF5",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "7.37",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996849,
+        "Description": "Thane to Kalyan Nagar WF1",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.54",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996883,
+        "Description": "WF_MYS_MYA_07",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "3.63",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996954,
+        "Description": "Thane to Kalyan Nagar WF2",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "4.66",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8996996,
+        "Description": "WF_MYS_MYA_08",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "8.53",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8997091,
+        "Description": "Thane to Kalyan Nagar WF3",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "3.89",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8997619,
+        "Description": "Thane to Kalyan Nagar WF4",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "7.32",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8998378,
+        "Description": "WF_MA_UD_01",
+        "Status": "New",
+        "Phase": "ROLLOUT",
+        "Distance": "7.56",
+        "AssignedTo": "tresadmin1",
+        "CreatedBy": "tresadmin1"
+      },
+      {
+        "id": 8998452,
+        "Description": "WF_MA_UD_01",
+        "Status": "New",
+        "Phase": "PLANNING",
+        "Distance": "6.29",
+        "AssignedTo": "tres_spn",
+        "CreatedBy": "tresadmin1"
+      }
+    ]
+  }
